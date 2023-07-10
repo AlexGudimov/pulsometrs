@@ -7,11 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -43,34 +44,36 @@
                         <div class="promo__img"><img src="icons/message_icon.png" alt="message_icon"></div>
                         Ответим на все вопросы
                     </div>
-                    
+
                 </div>
                 <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
-                    <div class="promo__link">или 
-                        <a href="">ПЕРЕЙТИ В КАТАЛОГ</a>
-                    </div>
+                <div class="promo__link">или
+                    <a href="">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+    <section class="advantages">
         <div class="container">
-            <h2 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__items">
                 <div class="advantages__item">
                     <div class="advantages__img">
                         <img src="icons/cup_icon.png" alt="cup_icon">
                     </div>
                     <div class="advantages__subheader">Делимся опытом</div>
-                    <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, 
-                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                    <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом,
+                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+                    </div>
                 </div>
                 <div class="advantages__item">
                     <div class="advantages__img">
                         <img src="icons/heart_icon.png" alt="heart_icon">
                     </div>
                     <div class="advantages__subheader">Заботимся о здоровье</div>
-                    <div class="advantages__descr">Мы работаем для того, 
-                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                    <div class="advantages__descr">Мы работаем для того,
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                    </div>
                 </div>
                 <div class="advantages__item">
                     <div class="advantages__img">
@@ -82,7 +85,43 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">Получите бесплатную консультацию<br> по подбору пульсометра</h2>
+            <div class="consultation__descr">Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/pulso_1.png" alt="pulso_1">
+                </div>
+                <div>
+                    <img src="img/pulso_2.png" alt="pulso_2">
+                </div>
+                <div>
+                    <img src="img/pulso_3.png" alt="pulso_3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
