@@ -4,8 +4,13 @@
         position: relative
         width: 750px
         margin: 0 auto
+    &__img
+        display: flex
+        justify-content: center
+        align-items: center
+        min-height: 580px
         img
-            width: 33%
+            width: 100%
     .slick-prev, .slick-next
         position: absolute
         top: 50%
@@ -16,6 +21,27 @@
         img
             width: 31px
             height: 50px
+        &:hover
+            box-shadow: 3px 3px 20px $main-color
     .slick-next
         right: -66px
         left: auto
+    .slick-dots
+        display: flex
+        justify-content: center
+        padding: 0
+        li
+            list-style: none
+            margin: 0 10px
+            
+        button
+            padding: 0
+            font-size: 0
+            width: 10px
+            height: 10px
+            background-color: #b9b9b9
+            border-radius: 100%
+            border: none
+    .slick-active
+        button
+            background-color: $main-color
